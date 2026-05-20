@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
 const Names_Data = [
-    "Aarav", "Advait", "Amruth", "Apoorva", "Arjun", "Bhavya", "Bhoomi","Bhoomika", "Chaitanya", "Devansh", "Diya", "Esha",
-    "Gautam", "Hitesh", "Ishaan", "Jhanvi", "Kabir", "Kavya","Kushal", "Laksh", "Meera", "Nakul", "Navya","Namitha"
-    ,"Omkar", "Parth", "Prisha", "Prajwal", "Rohan", "Riya", "Sahil", "Sana", "Tanmay", "Trisha", "Utkarsh",
+    "Aarav", "Advait", "Amruth", "Apoorva", "Arjun", "Bhavya", "Bhoomi", "Bhoomika", "Chaitanya", "Devansh", "Diya", "Esha",
+    "Gautam", "Hitesh", "Ishaan", "Jhanvi", "Kabir", "Kavya", "Kushal", "Laksh", "Meera", "Nakul", "Navya", "Namitha"
+    , "Omkar", "Parth", "Prisha", "Prajwal", "Rohan", "Riya", "Sahil", "Sana", "Tanmay", "Trisha", "Utkarsh",
     "Vaishnavi", "Vihaan", "Vanya", "Yash", "Zoya", "Aditya", "Ishita", "Karan", "Kiara", "Madhav",
     "Nandini", "Pranav", "Radhika", "Siddharth", "Tara", "Varun", "Vedika", "Vivaan", "Yuvraj", "Ansh"
 ];
@@ -16,7 +16,7 @@ const SearchFilter = () => {
     return (
         <div className='flex flex-col items-center min-h-screen bg-slate-50  p-10 font-sans'>
             <div className='w-full max-w-md'>
-                <h2 className='text-3xl font-extrabold text-scale-800 mb-6 text-center'> User Directory </h2>
+                <h2 className='text-5xl text-scale-800 mb-6 text-center font-extrabold'> SEARCH ENGINE </h2>
 
                 {/* 4. Input Box: The Event Handler */}
                 <div className="relative mb-8">
